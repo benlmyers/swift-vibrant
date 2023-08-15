@@ -9,12 +9,12 @@ let package = Package(
   products: [
     .library(
       name: "Vibrant",
-      targets: ["swift-vibrant"]
+      targets: ["Vibrant"]
     ),
   ],
   targets: [
     .target(
-      name: "swift-vibrant",
+      name: "Vibrant",
       dependencies: []
     ),
   ]
